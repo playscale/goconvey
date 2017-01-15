@@ -51,7 +51,7 @@ func (self *Shell) GoTest(directory, packageName string, tags, arguments []strin
 ///////////////////////////////////////////////////////////////////////////////
 
 func findGoConvey(directory, gobin, packageName, tagsArg string) Command {
-	return NewCommand(directory, gobin, "list", "-f", "'{{.TestImports}}'", tagsArg, packageName)
+	return NewCommand(directory, gobin, "list", "-f", "'{{.TestImports}}{{.XTestImports}}'", tagsArg, packageName)
 }
 
 func compile(directory, gobin, tagsArg string) Command {
