@@ -6,7 +6,7 @@ import (
 
 	"github.com/jtolds/gls"
 	"github.com/smartystreets/assertions"
-	"github.com/smartystreets/goconvey/convey/reporting"
+	"github.com/playscale/goconvey/convey/reporting"
 )
 
 func init() {

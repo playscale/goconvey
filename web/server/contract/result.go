@@ -6,8 +6,8 @@ import (
 
 	"go/build"
 
-	"github.com/smartystreets/goconvey/convey/reporting"
-	"github.com/smartystreets/goconvey/web/server/messaging"
+	"github.com/playscale/goconvey/convey/reporting"
+	"github.com/playscale/goconvey/web/server/messaging"
 )
 
 type Package struct {
